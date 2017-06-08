@@ -66,6 +66,7 @@ the final step of executing code in `emacs-startup-hook'.")
   (setq ad-redefinition-action 'accept)
   ;; this is for a smoother UX at startup (i.e. less graphical glitches)
   (hidden-mode-line-mode)
+  (windmove-default-keybindings)
   (spacemacs//removes-gui-elements)
   ;; explicitly set the prefered coding systems to avoid annoying prompt
   ;; from emacs (especially on Microsoft Windows)
